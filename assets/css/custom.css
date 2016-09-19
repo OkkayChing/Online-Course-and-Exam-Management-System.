@@ -1,0 +1,257 @@
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color:  #76C9F6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+   
+}
+
+.dropdown-menu2 {
+    display: none;
+    position: absolute;
+    background-color:  #76C9F6;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    z-index: 2;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-menu2 {
+    display: block;
+}
+
+.list_hover {
+   color:#fff;
+}
+
+
+
+.sf-icon {
+    color: #252525;
+}
+.sf-icon-cont {
+    border-color: rgba(37, 37, 37, 0.5);
+}
+.sf-icon-cont:hover,
+.sf-hover .sf-icon-cont,
+.sf-icon-box[class*="icon-box-boxed-"] .sf-icon-cont,
+.sf-hover .sf-icon-box-hr {
+    background-color: #252525;
+}
+.sf-icon-box[class*="sf-icon-box-boxed-"] .sf-icon-cont:after {
+    border-top-color: #252525;
+    border-left-color: #252525;
+}
+.sf-icon-cont:hover .sf-icon,
+.sf-hover .sf-icon-cont .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-one .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-three .sf-icon {
+    color: #ffffff;
+}
+.sf-icon-box-animated .front {
+    background: #f7f7f7;
+    border-color: #e4e4e4;
+}
+.sf-icon-box-animated .front h3 {
+    color: #444444!important;
+}
+.sf-icon-box-animated .back {
+    background: #252122;
+    border-color: #252122;
+}
+.sf-icon-box-animated .back,
+.sf-icon-box-animated .back h3 {
+    color: #252122!important;
+}
+.sf-icon-accent,
+.sf-icon-accent > i {
+    color: #252122;
+}
+.sf-icon-cont.sf-icon-accent {
+    border-color: #252122;
+}
+.sf-icon-cont.sf-icon-accent:hover,
+.sf-hover .sf-icon-cont.sf-icon-accent,
+.sf-icon-box[class*="icon-box-boxed-"] .sf-icon-cont.sf-icon-accent,
+.sf-hover .sf-icon-box-hr.sf-icon-accent {
+    background-color: #252122;
+}
+.sf-icon-box[class*="sf-icon-box-boxed-"] .sf-icon-cont.sf-icon-accent:after {
+    border-top-color: #252122;
+    border-left-color: #252122;
+}
+.sf-icon-cont.sf-icon-accent:hover .sf-icon,
+.sf-hover .sf-icon-cont.sf-icon-accent .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-one.sf-icon-accent .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-three.sf-icon-accent .sf-icon {
+    color: #252122;
+}
+.sf-icon-secondary-accent,
+.sf-icon-secondary-accent > i {
+    color: #252122;
+}
+.sf-icon-cont.sf-icon-secondary-accent {
+    border-color: #252122;
+}
+.sf-icon-cont.sf-icon-secondary-accent:hover,
+.sf-hover .sf-icon-cont.sf-icon-secondary-accent,
+.sf-icon-box[class*="icon-box-boxed-"] .sf-icon-cont.sf-icon-secondary-accent,
+.sf-hover .sf-icon-box-hr.sf-icon-secondary-accent {
+    background-color: #252122;
+}
+.sf-icon-box[class*="sf-icon-box-boxed-"] .sf-icon-cont.sf-icon-secondary-accent:after {
+    border-top-color: #252122;
+    border-left-color: #252122;
+}
+.sf-icon-cont.sf-icon-secondary-accent:hover .sf-icon,
+.sf-hover .sf-icon-cont.sf-icon-secondary-accent .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-one.sf-icon-secondary-accent .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-three.sf-icon-secondary-accent .sf-icon {
+    color: #ffffff;
+}
+.sf-icon-box-animated .back.sf-icon-secondary-accent {
+    background: #252122;
+    border-color: #252122;
+}
+.sf-icon-box-animated .back.sf-icon-secondary-accent,
+.sf-icon-box-animated .back.sf-icon-secondary-accent h3 {
+    color: #ffffff!important;
+}
+.sf-icon-icon-one,
+.sf-icon-icon-one > i {
+    color: #FF9900;
+}
+.sf-icon-cont.sf-icon-icon-one {
+    border-color: #FF9900;
+}
+.sf-icon-cont.sf-icon-icon-one:hover,
+.sf-hover .sf-icon-cont.sf-icon-icon-one,
+.sf-icon-box[class*="icon-box-boxed-"] .sf-icon-cont.sf-icon-icon-one,
+.sf-hover .sf-icon-box-hr.sf-icon-icon-one {
+    background-color: #FF9900;
+}
+.sf-icon-box[class*="sf-icon-box-boxed-"] .sf-icon-cont.sf-icon-icon-one:after {
+    border-top-color: #FF9900;
+    border-left-color: #FF9900;
+}
+.sf-icon-cont.sf-icon-icon-one:hover .sf-icon,
+.sf-hover .sf-icon-cont.sf-icon-icon-one .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-one.sf-icon-icon-one .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-three.sf-icon-icon-one .sf-icon {
+    color: #FFFFFF;
+}
+.sf-icon-box-animated .back.sf-icon-icon-one {
+    background: #FF9900;
+    border-color: #FF9900;
+}
+.sf-icon-box-animated .back.sf-icon-icon-one,
+.sf-icon-box-animated .back.sf-icon-icon-one h3 {
+    color: #FFFFFF!important;
+}
+.sf-icon-icon-two,
+.sf-icon-icon-two > i {
+    color: #339933;
+}
+.sf-icon-cont.sf-icon-icon-two {
+    border-color: #339933;
+}
+.sf-icon-cont.sf-icon-icon-two:hover,
+.sf-hover .sf-icon-cont.sf-icon-icon-two,
+.sf-icon-box[class*="icon-box-boxed-"] .sf-icon-cont.sf-icon-icon-two,
+.sf-hover .sf-icon-box-hr.sf-icon-icon-two {
+    background-color: #339933;
+}
+.sf-icon-box[class*="sf-icon-box-boxed-"] .sf-icon-cont.sf-icon-icon-two:after {
+    border-top-color: #339933;
+    border-left-color: #339933;
+}
+.sf-icon-cont.sf-icon-icon-two:hover .sf-icon,
+.sf-hover .sf-icon-cont.sf-icon-icon-two .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-one.sf-icon-icon-two .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-three.sf-icon-icon-two .sf-icon {
+    color: #FFFFFF;
+}
+.sf-icon-box-animated .back.sf-icon-icon-two {
+    background: #339933;
+    border-color: #339933;
+}
+.sf-icon-box-animated .back.sf-icon-icon-two,
+.sf-icon-box-animated .back.sf-icon-icon-two h3 {
+    color: #FFFFFF!important;
+}
+.sf-icon-icon-three,
+.sf-icon-icon-three > i {
+    color: #CCCCCC;
+}
+.sf-icon-cont.sf-icon-icon-three {
+    border-color: #CCCCCC;
+}
+.sf-icon-cont.sf-icon-icon-three:hover,
+.sf-hover .sf-icon-cont.sf-icon-icon-three,
+.sf-icon-box[class*="icon-box-boxed-"] .sf-icon-cont.sf-icon-icon-three,
+.sf-hover .sf-icon-box-hr.sf-icon-icon-three {
+    background-color: #CCCCCC;
+}
+.sf-icon-box[class*="sf-icon-box-boxed-"] .sf-icon-cont.sf-icon-icon-three:after {
+    border-top-color: #CCCCCC;
+    border-left-color: #CCCCCC;
+}
+.sf-icon-cont.sf-icon-icon-three:hover .sf-icon,
+.sf-hover .sf-icon-cont.sf-icon-icon-three .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-one.sf-icon-icon-three .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-three.sf-icon-icon-three .sf-icon {
+    color: #cccccc;
+}
+.sf-icon-box-animated .back.sf-icon-icon-three {
+    background: #CCCCCC;
+    border-color: #CCCCCC;
+}
+.sf-icon-box-animated .back.sf-icon-icon-three,
+.sf-icon-box-animated .back.sf-icon-icon-three h3 {
+    color: #cccccc!important;
+}
+.sf-icon-icon-four,
+.sf-icon-icon-four > i {
+    color: #6633ff;
+}
+.sf-icon-cont.sf-icon-icon-four {
+    border-color: #6633ff;
+}
+.sf-icon-cont.sf-icon-icon-four:hover,
+.sf-hover .sf-icon-cont.sf-icon-icon-four,
+.sf-icon-box[class*="icon-box-boxed-"] .sf-icon-cont.sf-icon-icon-four,
+.sf-hover .sf-icon-box-hr.sf-icon-icon-four {
+    background-color: #6633ff;
+}
+.sf-icon-box[class*="sf-icon-box-boxed-"] .sf-icon-cont.sf-icon-icon-four:after {
+    border-top-color: #6633ff;
+    border-left-color: #6633ff;
+}
+.sf-icon-cont.sf-icon-icon-four:hover .sf-icon,
+.sf-hover .sf-icon-cont.sf-icon-icon-four .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-one.sf-icon-icon-four .sf-icon,
+.sf-icon-box.sf-icon-box-boxed-three.sf-icon-icon-four .sf-icon {
+    color: #FFFFFF;
+}
+.sf-icon-box-animated .back.sf-icon-icon-four {
+    background: #6633ff;
+    border-color: #6633ff;
+}
+.sf-icon-box-animated .back.sf-icon-icon-four,
+.sf-icon-box-animated .back.sf-icon-icon-four h3 {
+    color: #FFFFFF!important;
+}

@@ -1,0 +1,102 @@
+@media print {
+    footer,head,hr{
+        display: none;
+    }
+    
+    @page { margin: 0; }    
+
+    .result-head{
+        letter-spacing: 2px;
+    }
+    .result-info {
+        border: 1px solid #eee;
+        margin: 0px 5px 10px 5px;
+        padding: 10px;
+    }
+    .result-info h3{
+        margin: 0px;
+        font-family: arial;
+        color: #999999 !important;
+        letter-spacing: 3px;
+    }
+    .result-info h4{
+        padding-bottom: 5px;
+        width: 55%;
+        border-bottom: 1px solid #c0c0c0;
+    }
+    .result-info-exam,.result-info-user{
+        letter-spacing: 1px;
+    }
+    .result-info-exam:before{
+        position:absolute;
+        font-family: FontAwesome;
+        right: 30px;
+        bottom: -10px;
+        font-size: 10em;
+        opacity: 0.05;
+        content: "\f12e";
+    }
+    .result-info-user:before{
+        position:absolute;
+        font-family: FontAwesome;
+        right: 30px;
+        bottom: 0px;
+        font-size: 10em;
+        opacity: 0.05;
+        content: "\f007";
+    }
+    .result-info .result-score {
+        padding: 2px 10px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .result-info .result-final {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .result-info .sign-panel{
+        margin: 50px auto;
+    }
+    .progress{
+        background-color: #F5F5F5 !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F5F5F5', endColorstr='#F5F5F5')" !important;
+    }
+    .progress-bar-info{
+        display: block !important;
+        background-color: #5bc0de !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5bc0de', endColorstr='#5bc0de')" !important;
+    }
+    .progress-bar-success{
+        display: block !important;
+        background-color: #5cb85c !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5cb85c', endColorstr='#5cb85c')" !important;
+    }
+    .progress-bar-danger{
+        display: block !important;
+        background-color: #d9534f !important;
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#d9534f', endColorstr='#d9534f')" !important;
+    }
+    .progress, .progress > .progress-bar {
+        display: block !important;
+        -webkit-print-color-adjust: exact !important;
+        box-shadow: inset 0 0 !important;
+        -webkit-box-shadow: inset 0 0 !important;
+    }   
+    p.lead{
+        padding: 5px;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    dt.assessment{
+        font-weight: normal;
+        font-size: 18px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+    .result-note{
+        font-size: 16px;
+    }
+    @page  {
+        margin: 2cm 1.2cm;
+    }
+}
